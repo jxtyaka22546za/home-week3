@@ -1,0 +1,149 @@
+body {
+  font-family: "Tahoma", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dcf7e0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #007acc;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%; 
+  object-fit: cover;
+   border: 3px solid #000000;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 20px 20px;
+  vertical-align: top;
+}
+
+.profile p {
+  margin: 5px 0;
+}
+section {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+h2 {
+  color: #000000;
+  margin: auto;
+  text-align: center;
+}
+ol {
+  text-align: center;
+  margin: 20px auto;
+}
+th{
+  text-align: center;
+  margin: 10px;
+}
+.skill-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.skill-table th,
+.skill-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.skill-table th {
+  background: #007acc;
+  color: white;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #007acc;
+  color: #fff;
+  margin-top: 30px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.contact-list {
+  text-align: center;
+  margin: 30px auto;
+  width: 60%;
+}
+
+.contact-list li {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.contact-list a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+  margin: 10px 0 5px 0;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 12px;
+  background: #007acc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #005f99;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+}
